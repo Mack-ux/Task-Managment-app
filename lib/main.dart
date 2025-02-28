@@ -31,7 +31,7 @@ class _TaskListScreenState extends State<TaskListScreen> {
     });
   }
 
-  // Method to remove a task
+   // Method to remove a task
   void removeTask(int index) {
     setState(() {
       tasks.removeAt(index);
