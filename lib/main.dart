@@ -14,7 +14,7 @@ class TaskListScreen extends StatefulWidget {
 }
 
 class _TaskListScreenState extends State<TaskListScreen> {
-  // List to store tasks
+   // List to store tasks
   List<Task> tasks = [];
 
   // Method to add a new task
